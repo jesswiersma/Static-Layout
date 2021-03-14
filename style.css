@@ -1,0 +1,264 @@
+#login-button {
+    height: 25px;
+    width: 75px;
+    left: 85%;
+    top: 5%;
+    background-color: #6B63B5;
+    color: #f9f4f2;
+    font-family: "Sofia Pro", serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    position: fixed;
+    z-index: 2;
+}
+
+.header{
+    position: fixed;
+}
+
+.navBarLinks {
+    font-family: "Sofia Pro", Serif;
+    font-size: 14px;
+    font-weight: 300px;
+    display: inline-block;
+    text-align: left;
+    color:#f9f4f2;
+    position: fixed;
+    left: 20%;
+    top: 10%;
+    z-index: 4;
+}
+
+/*
+.wizardingWorldLogo {
+    height: 70px;
+    width: 70px;
+    float: center;
+    position: relative;
+    z-index: 3;
+}
+*/
+
+/*
+.wizardingWorldLogo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+    padding: 0px 0px 0px 475px;
+    z-index: 2;
+}
+*/
+
+.homepage1 img {
+    width: 1468px;
+    height: 887px; 
+}
+
+/*
+.HP-Fantastic{
+    background-color: gray;
+    height:150px;
+    width: auto;
+}
+*/
+
+.HP-Fantastic img {
+    width: 600px;
+    height: 150px;
+    padding: 0px 0px 0px 450px;
+    position: relative;
+    top: 250px;
+    z-index: 1;
+}
+
+.mainText {
+    font-family: "Bluu Next" , serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-block-end: 10px;
+    margin-block-start: 0px;
+    margin-bottom: 10px;
+    margin-top:-300px;
+    color: #f9f4f2
+}
+
+.text2 {
+    font-family: "Sofia Pro", serif;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    padding: 0px 30px 30px 0px;
+    color:#f9f4f2;
+}
+
+
+#findOutMore {
+    background-color:#6B63B5;
+    color: #f9f4f2;
+    height: 50px;
+    width: 200px;
+    padding: 18px 31px;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    align-items: center;
+    margin-left: 575px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+/* homepage 2 section - three images overlaid on starbackground*/
+
+
+.homepage2 {
+    font-family: "Bluu Next", serif;
+    font-size: 32px;
+    display: block;
+}
+
+.images {
+    position: relative;
+    margin: -1050px 0px 0px 0px;
+}
+
+
+#Lupin-Harry {
+    margin: 30px 40px 20px 85px;
+    
+}
+
+#hogwarts-express{
+    margin: 30px 40px 20px 40px;
+    
+}
+
+#Australia {
+    margin: 30px 40px 20px 40px;
+}
+
+
+.features {
+    font-family: "Bluu Next" , serif;
+    font-size: 16px;
+    color:#f9f4f2;
+    height: 100px;
+    width: 100px;
+    margin-left: 54px;
+    margin-top: -70px;
+    text-align: right;
+    padding: 10px 10px 10px 250px;
+}
+
+.featuresLine2 {
+    font-family: "Bluu Next" , serif;
+    font-size: 24px;
+    color:#f9f4f2;
+    height: 100px;
+    width: 200px;
+    text-align: left;
+    padding: 10px 10px 10px 150px;
+    margin-top: -100px;
+
+}
+
+.collection {
+    height: 100px;
+    width: 100px;
+    font-family: "Bluu Next" , serif;
+    color:#f9f4f2;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: -170px;
+    text-align: right;
+    padding: 5px 5px 5px 710px;
+}
+
+.collectionLine2 {
+    height: 100px;
+    width: 150px;
+    color: #f9f4f2;
+    font-family: "Bluu Next", serif;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: -100px;
+    text-align: left;
+    padding: 5px 5px 5px 625px;
+}
+
+.news {
+    font-family: "Bluu NExt", serif;
+    font-size: 16px;
+    color: #f9f4f2;
+    height: 100px;
+    width: 100px;
+    margin-left: 54px;
+    margin-top: -150px;
+    text-align: left;
+    padding: 10px 10px 10px 1150px;
+}
+
+.newsLine2 {
+    font-family: "Bluu Next", serif;
+    font-size: 26px;
+    color: #f9f4f2;
+    display: block;
+    text-align: left;
+    height: 100px;
+    width: 200px;
+    padding: 10px 10px 10px 1175px;
+    margin-top: -120px; 
+}
+
+/* homepage part 3 - shield section */
+
+.homepage3 img {
+    float: right;
+    position: relative; 
+    z-index: 6;
+}
+
+.line1 {
+    font-family: "Mason Sans OT", serif;
+    font-size: 16px;
+    color: #f9f4f2;
+    text-align: right;
+    position: relative;
+    margin-top: 80px;
+    padding: 100px 10px 10px -20px;
+}
+
+.line2 {
+    font-family: "Bluu Next", serif;
+    font-size: 60px;
+    color:#f9f4f2;
+    text-align: right;
+}
+
+.line3 {
+    font-family: "Sofia Pro" , serif;
+    font-size: 16px;
+    color:#f9f4f2;
+    text-align: right;
+    position: relative;
+    z-index: 8;
+    margin: 0px 0px 0px 0px;
+}
+
+#getSortedNow {
+    background-color:#6B63B5;
+    color: #f9f4f2;
+    height: 50px;
+    width: 200px;
+    padding: 18px 31px;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+    margin: -80px 0px 0px 300px;
+}

@@ -15,21 +15,17 @@
     z-index: 2;
 }
 
-/*
-.header{
-    position: fixed;
-}
-*/
+
 .navBarLinks {
+    
     font-family: "Sofia Pro", Serif;
     font-size: 14px;
     font-weight: 300px;
-    display: inline-block;
     text-align: left;
     color:#f9f4f2;
     position: fixed;
     left: 20%;
-    top: 10%;
+    top: 18%;
     z-index: 4;
 }
 
@@ -40,8 +36,11 @@
     float: center;
     position: relative;
     z-index: 3;
+    border-radius: 50% 50% 50% 50%;
+    border: transparent;
 }
 */
+
 
 /*
 .wizardingWorldLogo img {
@@ -51,8 +50,8 @@
     position: relative;
     padding: 0px 0px 0px 475px;
     z-index: 2;
-}
 */
+
 
 .homepage1 img {
     width: 1468px;
@@ -149,8 +148,8 @@
     color:#f9f4f2;
     height: 100px;
     width: 100px;
-    margin-left: 54px;
-    margin-top: -20px;
+    margin-left: 110px;
+    margin-top: -80px;
     text-align: right;
     padding: -10px 10px 10px 250px;
     position: relative;
@@ -165,17 +164,18 @@
     text-align: left;
     padding: 10px 10px 10px 150px;
     margin-top: -100px;
+    margin-left: 50px;
     position: relative;
 
 }
 
 .collection {
     height: 100px;
-    width: 100px;
+    width: 200px;
     font-family: "Bluu Next" , serif;
     color:#f9f4f2;
     font-size: 16px;
-    margin-left: 10px;
+    margin-left: -150px;
     margin-top: -170px;
     text-align: left;
     padding: 5px 5px 5px 710px;
@@ -188,7 +188,7 @@
     color: #f9f4f2;
     font-family: "Bluu Next", serif;
     font-size: 24px;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: -100px;
     text-align: left;
     padding: 5px 5px 5px 625px;
@@ -201,8 +201,8 @@
     color: #f9f4f2;
     height: 100px;
     width: 100px;
-    margin-left: 54px;
-    margin-top: -150px;
+    margin-left: -150px;
+    margin-top: -160px;
     text-align: left;
     padding: 10px 10px 10px 1150px;
     position: relative;
@@ -215,18 +215,28 @@
     display: block;
     text-align: left;
     height: 100px;
-    width: 200px;
+    width: 250px;
     padding: 10px 10px 10px 1175px;
-    margin-top: -120px; 
+    margin-top: -110px; 
+    margin-left: -40px;
     position: relative;
 }
 
 /* homepage part 3 - shield section */
 
+/*
+.homepage3 {
+    height: 560px;
+    width: 560px;
+    float: right;
+    text-align: left;
+}
+*/
+
 .homepage3 img {
     float: right;
     position: relative; 
-    z-index: 6;
+    z-index: 6;    
 }
 
 .line1 {
@@ -236,7 +246,7 @@
     text-align: right;
     position: relative;
     margin-top: 80px;
-    padding: 100px 10px 10px -20px;
+    padding: 80px 10px 10px 20px;
 }
 
 .line2 {
@@ -244,6 +254,9 @@
     font-size: 60px;
     color:#f9f4f2;
     text-align: right;
+    padding: 10px 10px 10px 10px;
+    margin-left: %;
+    
 }
 
 .line3 {
@@ -253,7 +266,8 @@
     text-align: right;
     position: relative;
     z-index: 8;
-    margin: 0px 0px 0px 0px;
+    margin: -10px 0px 0px -10px;
+    padding: 0px 0px 0px 10px;
 }
 
 #getSortedNow {

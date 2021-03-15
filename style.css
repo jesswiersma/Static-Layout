@@ -15,10 +15,11 @@
     z-index: 2;
 }
 
+/*
 .header{
     position: fixed;
 }
-
+*/
 .navBarLinks {
     font-family: "Sofia Pro", Serif;
     font-size: 14px;
@@ -115,11 +116,12 @@
 /* homepage 2 section - three images overlaid on starbackground*/
 
 
-.homepage2 {
+.homepage2-text {
     font-family: "Bluu Next", serif;
     font-size: 32px;
     display: block;
 }
+
 
 .images {
     position: relative;
@@ -128,17 +130,16 @@
 
 
 #Lupin-Harry {
-    margin: 30px 40px 20px 85px;
-    
+    margin: 30px 30px 20px 100px;
 }
 
+
 #hogwarts-express{
-    margin: 30px 40px 20px 40px;
-    
+    margin: 30px 30px 20px 40px;
 }
 
 #Australia {
-    margin: 30px 40px 20px 40px;
+    margin: 30px 30px 20px 40px;
 }
 
 
@@ -149,9 +150,10 @@
     height: 100px;
     width: 100px;
     margin-left: 54px;
-    margin-top: -70px;
+    margin-top: -20px;
     text-align: right;
-    padding: 10px 10px 10px 250px;
+    padding: -10px 10px 10px 250px;
+    position: relative;
 }
 
 .featuresLine2 {
@@ -163,6 +165,7 @@
     text-align: left;
     padding: 10px 10px 10px 150px;
     margin-top: -100px;
+    position: relative;
 
 }
 
@@ -174,8 +177,9 @@
     font-size: 16px;
     margin-left: 10px;
     margin-top: -170px;
-    text-align: right;
+    text-align: left;
     padding: 5px 5px 5px 710px;
+    position: relative;
 }
 
 .collectionLine2 {
@@ -188,6 +192,7 @@
     margin-top: -100px;
     text-align: left;
     padding: 5px 5px 5px 625px;
+    position: relative;
 }
 
 .news {
@@ -200,6 +205,7 @@
     margin-top: -150px;
     text-align: left;
     padding: 10px 10px 10px 1150px;
+    position: relative;
 }
 
 .newsLine2 {
@@ -212,6 +218,7 @@
     width: 200px;
     padding: 10px 10px 10px 1175px;
     margin-top: -120px; 
+    position: relative;
 }
 
 /* homepage part 3 - shield section */
